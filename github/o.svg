@@ -34,8 +34,9 @@
 					background: linear-gradient(-45deg, #d50000, #C51162, #AA00FF);
 					color: transparent;
 					background-clip: text;
-					background-size: 600% 400%;
 					-webkit-background-clip: text;
+					background-size: 100% 400%;
+					display: inline-block;
 					line-height: .8;
 					text-transform: uppercase;
 					animation: rotate ease-in-out 1s infinite alternate, gradientBackground 10s ease infinite;
